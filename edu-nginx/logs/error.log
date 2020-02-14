@@ -1,0 +1,52 @@
+2019/11/13 12:24:48 [emerg] 664#2720: duplicate location "/" in E:\nginx-1.12.2/conf/nginx.conf:61
+2019/11/13 12:26:13 [error] 4904#11268: *1 CreateFile() "E:\nginx-1.12.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/11/13 12:50:01 [notice] 8500#5516: signal process started
+2019/11/13 13:13:39 [notice] 13944#12804: signal process started
+2019/11/13 13:13:57 [error] 3840#1564: *1 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/11/13 13:18:29 [notice] 4724#10012: signal process started
+2019/11/13 14:47:31 [error] 9064#5268: *14 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8210", referrer: "http://localhost:8210/admin/edu/teacher"
+2019/11/13 14:47:42 [error] 9064#5268: *18 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8210", referrer: "http://127.0.0.1:8210/admin/edu/teacher"
+2019/11/14 00:06:39 [notice] 13180#1220: signal process started
+2019/11/14 16:52:23 [emerg] 7532#11144: host not found in upstream "www.easy-mock.com" in F:\edu-front-end\nginx-edu/conf/nginx.conf:126
+2019/11/14 16:52:53 [emerg] 7072#7048: host not found in upstream "www.easy-mock.com" in F:\edu-front-end\nginx-edu/conf/nginx.conf:126
+2019/11/14 16:52:55 [emerg] 10788#14028: host not found in upstream "www.easy-mock.com" in F:\edu-front-end\nginx-edu/conf/nginx.conf:126
+2019/11/14 16:52:59 [emerg] 7160#14900: host not found in upstream "www.easy-mock.com" in F:\edu-front-end\nginx-edu/conf/nginx.conf:126
+2019/11/14 16:53:11 [emerg] 2612#7768: host not found in upstream "www.easy-mock.com" in F:\edu-front-end\nginx-edu/conf/nginx.conf:126
+2019/11/14 16:55:02 [error] 6160#2456: *111 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/11/14 17:14:47 [error] 6160#2456: *116 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8210", referrer: "http://localhost:8210/"
+2019/11/14 17:17:20 [notice] 9160#7604: signal process started
+2019/11/14 17:22:40 [notice] 14776#9800: signal process started
+2019/11/14 17:24:58 [error] 6160#2456: *121 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/login HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:24:59 [error] 6160#2456: *121 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8210", referrer: "http://127.0.0.1:8210/admin/sysuser/login"
+2019/11/14 17:27:06 [notice] 4356#12496: signal process started
+2019/11/14 17:30:05 [error] 6160#2456: *133 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/login HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:31:02 [error] 6160#2456: *133 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/login" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/login HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:31:18 [error] 6160#2456: *133 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/info" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/info HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:31:25 [error] 6160#2456: *133 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/info" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/info HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:31:49 [error] 6160#2456: *133 CreateFile() "F:\edu-front-end\nginx-edu/html/admin/sysuser/info" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /admin/sysuser/info HTTP/1.1", host: "127.0.0.1:8210"
+2019/11/14 17:33:19 [notice] 10480#8296: signal process started
+2019/11/14 17:41:14 [notice] 11176#14740: signal process started
+2019/11/14 21:33:40 [error] 5720#13820: *1 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/11/14 21:39:06 [notice] 14344#13268: signal process started
+2019/11/18 21:14:13 [error] 15172#1020: *1 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
+2019/11/19 00:00:58 [notice] 15724#16032: signal process started
+2019/11/23 00:24:07 [notice] 988#15056: signal process started
+2019/12/03 21:31:17 [notice] 820#15140: signal process started
+2019/12/04 11:19:02 [notice] 15620#7712: signal process started
+2019/12/11 16:28:23 [notice] 10528#11532: signal process started
+2019/12/14 00:26:23 [notice] 8404#4476: signal process started
+2020/01/08 00:00:39 [notice] 1164#11168: signal process started
+2020/01/09 21:19:42 [notice] 10836#9948: signal process started
+2020/01/09 23:32:05 [notice] 10352#11396: signal process started
+2020/01/10 21:27:53 [notice] 360#7536: signal process started
+2020/01/11 22:37:44 [notice] 16168#13040: signal process started
+2020/01/12 17:08:36 [error] 8312#15444: *290 CreateFile() "F:\edu-front-end\nginx-edu/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8210", referrer: "http://127.0.0.1:8210/admin/edu/course/25"
+2020/01/12 22:04:00 [notice] 13428#14136: signal process started
+2020/01/15 00:08:16 [notice] 6760#10044: signal process started
+2020/01/15 22:23:43 [notice] 16768#19200: signal process started
+2020/01/19 21:13:12 [notice] 8408#8076: signal process started
+2020/02/05 17:02:13 [error] 16328#13640: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /admin/statistics/daily/ HTTP/1.1", upstream: "http://127.0.0.1:8140/admin/statistics/daily/", host: "127.0.0.1:8210", referrer: "http://localhost:9528/"
+2020/02/05 17:03:13 [error] 16328#13640: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /admin/statistics/daily/ HTTP/1.1", upstream: "http://[::1]:8140/admin/statistics/daily/", host: "127.0.0.1:8210", referrer: "http://localhost:9528/"
+2020/02/05 17:26:07 [error] 16328#13640: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "OPTIONS /admin/vod/video HTTP/1.1", upstream: "http://127.0.0.1:8160/admin/vod/video", host: "127.0.0.1:8210", referrer: "http://localhost:9528/"
+2020/02/06 00:57:10 [notice] 15716#13516: signal process started
+2020/02/11 19:42:39 [notice] 15064#13184: signal process started
