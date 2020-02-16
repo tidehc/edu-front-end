@@ -45,7 +45,7 @@
               :class="{undisable: !data.hasPrevious}"
               href="#"
               title="首页"
-              @click.prevent="gotoPage(1)">首</a>
+              @click.prevent="gotoPage(1)">首页</a>
             <a
               :class="{undisable: !data.hasPrevious}"
               href="#"
@@ -67,7 +67,7 @@
               :class="{undisable: !data.hasNext}"
               href="#"
               title="末页"
-              @click.prevent="gotoPage(data.pages)">末</a>
+              @click.prevent="gotoPage(data.pages)">末页</a>
             <div class="clear"/>
           </div>
         </div>

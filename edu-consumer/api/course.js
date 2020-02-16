@@ -9,6 +9,13 @@ export default{
       url: `${api_name}/${page}/${limit}`,
       method: 'GET'
     })
+  },
+
+  getCourseDetailedById(courseId) { // 查询课程详情信息,包括课程信息和对应的讲师信息
+    return request({
+      url: `${api_name}/${courseId}`,
+      method: 'GET'
+    })
   }
 
 }
